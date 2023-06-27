@@ -1,0 +1,19 @@
+{
+  "name": "nodefiles",
+  "version": "18.13.0",
+  "description": "simple web app",
+  "main": "fileSystem.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moliddy23/intro-to-node.git"
+  },
+  "author": "Maurizio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moliddy23/intro-to-node/issues"
+  },
+  "homepage": "https://github.com/moliddy23/intro-to-node#readme"
+}
