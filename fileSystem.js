@@ -1,6 +1,7 @@
 let http = require('http');
 let fileSystem = require('fs');
 let url = require('url');
+const PORT = process.env.PORT || 5000;
 
 http.createServer(function(req,res){
     let incomingQuery = url.parse(req.url,true);
@@ -23,6 +24,6 @@ http.createServer(function(req,res){
         res.end();
 
     });
-}).listen(8081);
+}).listen(PORT);
 
 console.log("Server listening on Port 8081")
